@@ -1,0 +1,201 @@
+page-utilisateur {
+
+  .body_img {
+    background-image: url("../assets/imgs/img_background.jpg");
+  }
+
+  /*/////////////////  Navbar  /////////////////*/
+  #menu_utilisateur {
+
+  }
+
+
+
+
+
+
+  /*/////////////////  Hero  /////////////////*/
+  #utilisateur {
+    background-image: url("../assets/imgs/hero_img_utilisateur.jpg");
+  }
+
+  .photo {
+    background-image: url("../assets/imgs/karaoke_hero.jpg");
+  }
+
+
+  .mam {
+    border: 3px green solid;
+    height: 500px;
+    margin-top: 100vh;
+  }
+
+
+
+
+
+
+  /*/////////////////  Mes Amis /////////////////*/
+  #container_amis {
+    border: 3px rgb(252, 244, 0) solid;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .amis {
+    border: 1px blue solid;
+    padding: 5px;
+    width: 94%;
+    height: 80vh;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .amis div {
+    border: 2px red solid;
+    width: 130px;
+    height: 100px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+  }
+
+  .photo_amis {
+    width: 120px;
+  }
+
+  .nom_amis {
+    margin: 0;
+    color: rgb(0, 0, 0);
+  }
+
+
+
+
+
+
+
+  /*///////////////// Mes Playlist /////////////////*/
+  #container_playlists_utilisateur {
+    border: 3px green solid;
+    height: 100vh;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .playlists_utilisateur {
+    border: 1px blue solid;
+    width: 94%;
+    height: 80vh;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .playlists_utilisateur div {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .playlists_utilisateur button {
+    font-size: 13px;
+    font-style: bold;
+  }
+
+
+
+
+
+
+
+  /*/////////////////  Mes videos /////////////////*/
+  #container_mes_videos {
+    border: 3px green solid;
+    height: 100vh;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mes_videos {
+    border: 1px blue solid;
+    padding: 5px;
+    width: 94%;
+    height: 80vh;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+
+
+
+
+
+
+  /*///////////////// Bars à proximité /////////////////*/
+  #container_bars {
+    border: 3px green solid;
+    height: 100vh;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .recherche_bars {
+    border: 1px blue solid;
+    padding: 5px;
+    width: 94%;
+    height: 80vh;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .input_adresse {
+    width: 220px;
+  }
+
+  .valider {
+    background-color: rgb(0, 208, 255);
+    border: 0;
+    padding: 3px;
+  }
+
+
+
+
+
+
+
+  /*///////////////// Footer /////////////////*/
+  footer {
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 10px;
+    width: 100%;
+    margin-bottom: -10px;
+    background-image: linear-gradient(to bottom, rgba(183, 125, 207, 0.5), black);
+  }
+
+  footer div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 70px;
+  }
+
+  footer a {
+    color: white;
+    font-size: 15px;
+  }
+
+  footer p {
+    color: white;
+    font-size: 10px;
+    margin-top: 20px;
+  }
+
+
+
+}

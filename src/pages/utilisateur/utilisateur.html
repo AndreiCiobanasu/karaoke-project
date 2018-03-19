@@ -1,0 +1,125 @@
+
+
+<ion-content class="ion_content">
+  <div class="body_img"></div>
+
+  <!-- ////////////////  Navbar  ////////////////// -->
+  <nav>
+    <p>Home</p>
+
+    <section class="menu" id="menu_utilisateur">
+      <div class="menu_div"></div>
+      <div class="menu_div"></div>
+      <div class="menu_div"></div>
+    </section>
+  </nav>
+
+
+
+  <!-- ////////////////  Hero  ////////////////// -->
+  <section class="hero" id="utilisateur">
+    <div class="container_identite">
+      <section class="photo">
+        <p>Cliquez pour ajouter une photo</p>
+      </section>
+
+      <h1>Nom</h1>
+      <h2>Prénom</h2>
+    </div>
+
+    <div class="voir_plus">
+      <p>-></p>
+    </div>
+  </section>
+
+
+
+  <!-- ////////////////  Mes Amis  ////////////////// -->
+  <section id="container_amis">
+    <h3>Mes Amis</h3>
+
+    <section class="amis">
+      <section>
+        <div>
+          <img class="photo_amis" src="../assets/imgs/2.jpg" alt="">
+          <p class="nom_amis">Marcel</p>
+        </div>
+      </section>
+
+      <button>Voir tous mes amis</button>
+    </section>
+  </section>
+
+
+
+
+
+
+  <!-- ////////////////  Mes Playlists  ////////////////// -->
+  <section id="container_playlists_utilisateur">
+    <h3>Mes Playlists</h3>
+
+    <!-- Search bar -->
+    <section class="playlists_utilisateur">
+      <ion-searchbar (ionInput)="getItems($event)" placeholder="Recherchez une chanson"></ion-searchbar>
+
+
+
+    <!-- Buttons -->
+      <div>
+        <button ion-button style="background-color: rgb(247, 124, 146)">Ajouter une playlist</button>
+        <button ion-button style="background-color: rgb(124, 163, 247)">Playlist séléctionés</button>
+      </div>
+    </section>
+  </section>
+
+
+
+
+
+
+  <!-- ////////////////  Mes vidéos  ////////////////// -->
+  <section id="container_mes_videos">
+    <h3>Mes vidéos</h3>
+
+    <section class="mes_videos">
+
+    </section>
+  </section>
+
+
+
+
+
+
+  <!-- ////////////////  Bars à proximité ////////////////// -->
+  <section id="container_bars">
+    <h3>Bars à proximité</h3>
+
+    <section class="recherche_bars">
+      <div>
+        <input class="input_adresse" type="text" placeholder="Rentrez votre adresse">
+        <input class="valider" type="submit">
+      </div>
+    </section>
+  </section>
+
+
+<footer>
+  <div>
+    <a>Facebook</a>
+
+    <a>Twitter</a>
+
+    <a>Instagram</a>
+  </div>
+
+  <p>All right reserved</p>
+</footer>
+
+
+
+
+
+
+</ion-content>

@@ -1,0 +1,37 @@
+
+<ion-content class="bg-imgkaraoke scroll">
+  <img src="../assets/imgs/logo.png" alt="logo" class="logo">
+
+  <div>
+    <ion-list inset class="list">
+      <ion-item class="item">
+        <ion-label style="font-size=12px;color:#fff" stacked>Nom d'utilisateur</ion-label>
+        <ion-input type="text" placeholder="Entrez votre nom d'utilisateur"></ion-input>
+      </ion-item>
+
+      <ion-item class="item">
+          <ion-label style="font-size=12px;color:#fff" stacked>Mot de passe</ion-label>
+        <ion-input type="text" placeholder="Entrez votre mot de passe"></ion-input>
+      </ion-item>
+    </ion-list>
+  </div>
+
+  <p class="text" style="font-family:open-sans; font-size:14px; color:#ebebeb;">
+    <a href="#">Mot de passe perdu ?</a>
+  </p>
+
+  <div text-center>
+      <button class="btn-login" ion-button color='secondary' round [navPush]="UtilisateurPage">Connexion</button>
+    </div>
+  <div text-center>
+    <button class="btn-reg" ion-button round outline [navPush]="enregistrementPage">S'enregistrer</button>
+  </div>
+
+  <p class="text-or" style="font-family:open-sans; font-size:14px; color:#ebebeb;">
+      Ou
+    </p>
+
+  <img src="../assets/imgs/facebook.png" class="btn-fb">
+
+
+</ion-content>

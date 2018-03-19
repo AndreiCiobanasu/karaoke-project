@@ -1,0 +1,60 @@
+page-login {
+
+    a{
+        color: #FFFFFF;
+        text-decoration: none;
+        font-weight: 60;
+    }
+    .scroll .scroll-content{
+        overflow: hidden;
+    }
+    .bg-imgkaraoke{
+        background-image: url('../assets/imgs/font-karaoke3.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .logo{
+        display: block;
+        margin: auto;
+        width: 120px;
+        margin-top: 4vh;
+        margin-bottom: 1vh;
+    }
+    .item{
+        background-color: rgba($color: #000000, $alpha: 0);
+        border: none;
+    }
+    .list{
+
+        width: 50%;
+        position: absolute;
+        right: 100px;
+        margin: auto;
+
+    }
+    .text{
+        text-align: center;
+        margin-top:30vh;
+    }
+    .text-or{
+        text-align: center;
+        margin-top:2vh;
+    }
+    .btn-fb{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 240px;
+
+    }
+    .btn-login{
+        width: 250px;
+    }
+    .btn-reg{
+        width: 250px;
+        color:#fff;
+        border-color:#fff;
+    }
+
+}
